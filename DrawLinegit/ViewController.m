@@ -19,7 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    
+    NSLog(@"hii this line has added to your project");
+    NSLog(@"hii this line has added to your project");
     self.navigationItem.title=@"Draw Line";
     aView=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 460-44)];
     aView.backgroundColor=[UIColor whiteColor];
